@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agradecimentos e Decicações!</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <ul>
+      <li><a href="index.html"> Voltar para Home</a></li>
+    </ul>
+    <h1>Entre em contato comigo</h1>
+    <p class="p1">Olá! Adoro viajar e descobrir novos lugares, e adoraria saber mais sobre os lugares que
+      você gostaria de conhecer no mundo. Se você está procurando por dicas e sugestões de destinos, é só me chamar! 
+      Vamos conversar sobre viagens e trocar experiências. Estou ansiosa para ouvir suas histórias!</p>
+    <form action="">
+      <input placeholder="Seu nome" type="text" id="nome" onkeyup='validaNome()'>
+      <div id="txtNome"></div>
+      <br>
+      <input placeholder="E-mail" type="text" id="email" onkeyup='validaEmail()'>
+      <div id="txtEmail"></div>
+      <br>
+      <textarea placeholder="Escreva sua mensagem..." id="assunto" onkeyup='validaAssunto()'></textarea>
+      <div id="txtAssunto"></div>
+      <br>
+      <button name="submit" type="submit" id="contact-submit" onclick="enviar(event)">
+        Decolar
+      </button>
+
+    </form>
+    <p class="p1">Foi isso Pessoal, obrigada Sz...</p>
+    <h2 class="center" >Página desenvolvida por:</h2>
+    <p  class="centerM">Giulia Faria</p>
+    <div class="container">
+    <img src="assets/img/I (1).png" alt="" />
+  </div>
+    <h2 class="center">Dedicada a:</h2>
+    <p  class="centerM">Diego Rossato</p>
+    <div class="container">
+    <img src="assets/img/moh.png" alt="" />
+  </div>
+
+  <footer>
+    <div class="social">
+      <a href="https://wa.me/5511978227563" class="social-media" target="_blank"><i
+          class="fa fa-whatsapp whatsapp"></i></a>
+      <a href="https://www.instagram.com/giulia_lia_faria/" class="social-media" target="_blank"><i
+          class="fa fa-instagram instagram"></i></a>
+      <a href="https://github.com/giufaria" class="social-media" target="_blank"><i
+          class="fa fa-github github"></i></a>
+      <a href="https://www.linkedin.com/in/giulia-faria-36a23b22b/" class="social-media" target="_blank"><i
+          class="fa fa-linkedin-square linkedin"></i></a>
+    </div>
+    <div class="reservated">Todos os direitos reservado: Giulia Faria &copy</div>
+  </footer>
+  <script src="assets/js/script.js"></script>
+  </body>
+</html>

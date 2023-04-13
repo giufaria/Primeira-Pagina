@@ -1,0 +1,151 @@
+/* Estilo index.html*/
+.center {
+    text-align: center;
+}
+
+.p1 {
+    font-size: 18px;
+}
+
+.centerM {
+    text-align: center;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+   
+  }
+
+  .viagem-container {
+
+    display: flex;
+    justify-content: center;
+  }
+  
+  .lista-viagem {
+    margin: 5;
+    padding: 15;
+    display: inline-block;
+    font-size: 20px;
+  }
+
+  .video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+ body {
+  color:maroon;
+  background-color:burlywood;
+ }
+
+ li{
+  list-style-type: none;
+}
+
+.borda{
+  border-style:dashed;
+  border-width: 5px;
+  border-color:maroon(10, 27, 44);
+}
+
+
+.margem8{
+  margin: 8px;
+}
+
+.lista-viagem {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  max-width: 960px;
+}
+
+.lista-viagem li {
+  margin: 8px;
+  padding: 8px;
+  font-size: 20px;
+  border: 2px solid maroon;
+  border-radius: 8px;
+  width: calc(50% - 16px);
+  text-align: center;
+}
+
+/* ===== Estilizando o footer ===== */
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  background-color: burlywood;
+}
+.social-media {
+  text-decoration: none;
+  color: #b7b7b7;
+  margin: 5px;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  transition: transform 0.4s;
+}
+.social-media::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background: #373737;
+  opacity: 0;
+  border-radius: 10px;
+  transition: opacity 0.2s;
+}
+.social-media:hover::before {
+  opacity: 0.8;
+}
+.social-media:nth-child(1)::before {
+  background: #25d366;
+}
+.social-media:nth-child(2)::before {
+  background: #f13e92;
+}
+.social-media:nth-child(3)::before {
+  background: #cdcdcd;
+}
+.social-media:nth-child(4)::before {
+  background: #0a66c2;
+}
+.social-media::before {
+  transform: translate(-4px, -4px);
+  filter: blur(10px);
+}
+.social-media i {
+  font-size: 2.0rem;
+}
+.social-media:hover i {
+  color: #c8c8c8;
+}
+.social-media i.whatsapp {
+  color: #25d366;
+}
+.social-media i.instagram {
+  color: #f13e92;
+}
+.social-media i.github {
+  color: #cdcdcd;
+}
+.social-media i.linkedin {
+  color: #0a66c2;
+}
+.reservated {
+  font-size: 1.3rem;
+  padding: 0 20px;
+  color:maroon;
+}
+/* ===== Fim da estilização do footer ===== */
