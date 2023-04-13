@@ -1,3 +1,6 @@
+let nomeOk = false;
+let emailOk = false;
+let assuntoOk = false;
 // ===== Validação do Nome ===== //
 function validaNome() {
     let nome = document.getElementById("nome");
